@@ -1,0 +1,16 @@
+export { default as About } from "./about/About";
+export { default as Audio } from "./audio/Audio";
+export { default as Blog } from "./blog/Blog";
+export { default as Careers } from "./careers/Careers";
+export { default as Content } from "./content/Content";
+export { default as Content_lang } from "./content_lang/Content_lang";
+export { default as Customers } from "./customers/Customers";
+export { default as Ecommerce } from "./ecomm/Ecommerce";
+export { default as Home } from "./home/Home";
+export { default as Image } from "./image/Image";
+export { default as Legal } from "./legal/Legal";
+export { default as Pricing } from "./pricing/Pricing";
+export { default as Rapid } from "./rapid/Rapid";
+export { default as Resources } from "./resources/Resources";
+export { default as Sales } from "./sales/Sales";
+export { default as Text } from "./text/Text";
