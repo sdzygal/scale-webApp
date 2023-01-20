@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;500&family=Roboto+Flex:opsz,wght@8..144,100;8..144,900&display=swap');
 
 :root {
-  --font-family: 'Roboto Flex', sans-serif;
+  --font-family:'Roboto Flex', sans-serif;
+  --font-family_h1: 'IBM Plex Sans', sans-serif ;
   --gradient-text: linear-gradient(90.13deg,#d1aad7 .11%,#c88bc4 25.06%,#7b8fdd 50%,#86bff2 74.8%,#bbdef2 99.76%);
 
 

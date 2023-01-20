@@ -1,0 +1,120 @@
+.scale__header {
+    display: flex;
+    color: #ffffff;
+}
+
+.scale__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.scale__header-content h1 {
+    font-family: var(--font-family_h1);
+    font-weight: 100;
+    font-size: 100px;
+    line-height: 75px;
+}
+
+
+.scale__header-content p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 3rem;
+}
+
+
+.scale__header-buttons button {
+    flex: 0.6;
+    width: 50%;
+    min-width: 150px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-top: 3rem;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.btn_start {
+    background: #c88bc4;
+}
+
+.btn_sales {
+    background: transparent;
+}
+
+.scale__header-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.scale__header-img img {
+    width: 120%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .ntwist__header {
+        flex-direction: column;
+    }
+
+    .ntwist__header-content {
+        margin: 0 0 3rem;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .ntwist__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .ntwist__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ntwist__header-content_input input,
+    .ntwist__header-content_input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .ntwist__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .ntwist__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ntwist__header-content_input input,
+    .ntwist__header-content_input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .ntwist__header-img {
+        display: none;
+    }
+}
