@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.53.1",
     "@react-three/fiber": "^8.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,8 +15,10 @@
     "react-rotating-text": "^1.4.1",
     "react-scripts": "5.0.1",
     "react-text-transition": "^3.0.2",
+    "react-three-fiber": "^6.0.13",
     "styled-components": "^5.3.6",
     "three": "^0.148.0",
+    "three-stdlib": "^2.21.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

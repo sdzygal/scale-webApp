@@ -36,7 +36,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 26px;
     text-transform: capitalize;
     margin: 0 1rem;
     cursor: pointer;
@@ -77,20 +77,21 @@
         display: flex;
         padding: 2rem;
     }
-}
-
-@media screen and (max-width: 700px) {
-    .scale__navbar {
-        padding: 2rem 4rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .scale__navbar {
-        padding: 2rem;
-    }
 
     .scale__navbar-menu_container {
-        top: 20px;
+        top: 70px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .scale__navbar-menu_container {
+        top: 60px;
+    }
+    .scale__navbar-menu_container a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
     }
 }

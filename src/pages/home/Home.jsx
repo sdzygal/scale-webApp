@@ -1,11 +1,13 @@
 import React from 'react';
-import "./home.css";
-import Header from "./components/header/Header";
+import { Header, Brand } from './components/index';
+
+
 
 const Home = () => {
     return(
         <div>
-        <Header />
+            <Header />
+            <Brand />
         </div>
     );
 }

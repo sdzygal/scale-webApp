@@ -1,0 +1,82 @@
+.scale__brand {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scale__brand-container {
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+
+.scale__brand img {
+    width: 95px;
+    height: 45px;
+    margin: 3rem;
+    opacity: 0.7;
+}
+
+.scale__brand .etsy {
+    width: 65px;
+    height: 45px;
+}
+
+.scale__brand .sap {
+    width: 65px;
+    height: 45px;
+}
+
+.dividing-line {
+    width: 100%;
+    height: 1px;
+    line-height: 24px;
+    margin-top: 48px;
+}
+
+.scale__brand-container_investors {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.scale__brand-container_investors img {
+    width: 90px;
+    height: 40px;
+    margin-right: 5rem;
+    opacity: 0.7;
+}
+
+.scale__brand-container_investors .carper {
+    width: 98px;
+    height: 35px;
+}
+
+h4 {
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: rgb(163, 163, 163);
+    margin-top: 8px;
+}
+
+ .scale__brand-btn {
+    background-color: transparent;
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+     cursor: pointer;
+     outline: none;
+     padding: 0.5rem;
+     border: none;
+}
