@@ -1,7 +1,7 @@
 .scale__header {
     display: flex;
     color: #ffffff;
-    margin-top: 3rem;
+   margin-top: 3rem;
 }
 
 .scale__header-content {
@@ -16,8 +16,8 @@
 .scale__header-content h1 {
     font-family: var(--font-family_h1);
     font-weight: 100;
-    font-size: 130px;
-    line-height: 125px;
+    font-size: 120px;
+    line-height: 130px;
     letter-spacing: -0.04em;
 }
 
@@ -27,7 +27,7 @@
     font-size: 20px;
     line-height: 29px;
     color: var(--color-text);
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 
@@ -74,13 +74,18 @@
 /*    height: 400px;*/
 /*}*/
 
-@media screen and (max-width: 1050px) {
+
+
+
+
+@media screen and (max-width: 768px) {
     .scale__header {
         flex-direction: column;
     }
-    .scale__company-header p {
-        margin-top: 1rem;
+    .scale__header-content h1 {
+        margin-top: -2rem;
     }
+
 
 }
 
@@ -88,12 +93,14 @@
 @media screen and (max-width: 650px) {
     .scale__header h1 {
         font-size: 48px;
-        line-height: 60px;
+        line-height: 80px;
+        margin-top: -2rem;
     }
 
     .scale__header p {
         font-size: 16px;
         line-height: 24px;
+        margin-top: -0.5rem;
     }
 
 }
@@ -101,12 +108,18 @@
 @media screen and (max-width: 490px) {
     .scale__header h1 {
         font-size: 36px;
-        line-height: 48px;
+        line-height: 70px;
     }
 
     .scale__header p {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .scale__header-buttons button {
+        margin-top: 1.5rem;
+        font-size: 14px;
+        line-height: 18px;
     }
 
 

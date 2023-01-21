@@ -80,3 +80,35 @@ h4 {
      padding: 0.5rem;
      border: none;
 }
+
+@media screen and (max-width: 778px) {
+   .scale__brand {
+       margin-top: -5rem;
+   }
+
+    .scale__brand-container img {
+        width: 80px;
+        height: 30px;
+    }
+
+    .dividing-line {
+        display: none;
+    }
+.scale__brand-container_investors {
+    width: 80%;
+}
+
+.scale__brand-container_investors img {
+        width: 80px;
+        height: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .scale__brand {
+        margin-top: -6rem;
+    }
+
+}
