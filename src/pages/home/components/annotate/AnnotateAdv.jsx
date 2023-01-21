@@ -1,7 +1,7 @@
 import React from "react";
 import "../annotate/annotate.css";
 import imgUrl1 from '../../../../assets/data-centric/annotate.png';
-import {SliderData} from "./SliderData";
+import { SliderData2 } from "./SiderData2";
 import Slider from "../animations/Slider";
 import { Line } from '../brand/Brand';
 import Arrow from "../icons/Icons";
@@ -20,7 +20,7 @@ const AnnotateAdv = () => {
             <button className="scale__annotate-btn" type="button">Learn More<Arrow /></button>
         </div>
             <div className="transform-x-avatar-color-overlay scale__annotate-containerBox scale__annotateAdv-slider">
-                <Slider slides={SliderData} clasName="img" />
+                <Slider slides={SliderData2} className="img" />
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 import React from "react";
 import "../annotate/annotate.css";
 import imgUrl1 from '../../../../assets/data-centric/annotate.png';
-import {SliderData} from "./SliderData";
+import { SliderData1 } from "./SliderData1";
 import Slider from "../animations/Slider";
 import { Line } from '../brand/Brand';
 import Arrow from "../icons/Icons";
@@ -9,6 +9,7 @@ import Arrow from "../icons/Icons";
 
 
 const Annotate = () => {
+
     return(
         <div className="scale__annotate section__padding"> <div className="scale__annotate-container">
             <img src={imgUrl1} alt="icon" />
@@ -19,7 +20,7 @@ const Annotate = () => {
             <button className="scale__annotate-btn" type="button">Learn More<Arrow /></button>
         </div>
             <div className="transform-x-avatar-color-overlay scale__annotate-containerBox">
-                <Slider slides={SliderData} />
+                <Slider slides={SliderData1} className = "img" />
             </div>
            </div>
     );

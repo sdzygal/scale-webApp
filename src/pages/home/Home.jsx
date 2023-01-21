@@ -3,8 +3,6 @@ import { Header, Brand, Development, Annotate, AnnotateAdv } from './components/
 
 
 
-
-
 const Home = () => {
     return(
         <div>

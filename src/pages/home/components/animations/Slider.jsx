@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { SliderData } from '../annotate/SliderData';
 import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
 import './slider.css';
 const Slider = ({ slides }) => {
@@ -22,7 +21,7 @@ const Slider = ({ slides }) => {
         <section className='slider'>
             <TiArrowLeft className='left-arrow' onClick={prevSlide} />
             <TiArrowRight className='right-arrow' onClick={nextSlide} />
-            {SliderData.map((slide, index) => {
+            {slides.map((slide, index) => {
                 return (
                     <div
                         className={index === current ? 'slide active' : 'slide'}
