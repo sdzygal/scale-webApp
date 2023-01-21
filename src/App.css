@@ -37,6 +37,65 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.bg-transform-x-gradient {
+  background: linear-gradient(
+          90.13deg,
+          #c96fa0 4.27%,
+          #6b80d2 35.45%,
+          #59bbcc 66.11%,
+          #a2af72 96.25%
+  )
+}
+
+.transform-x-avatar-color-overlay {
+    background: linear-gradient(
+            90.13deg,
+            #9a78b9 0.11%,
+            #6b80d2 35.45%,
+            #59bbcc 66.11%,
+            #7bb5a2 99.89%
+    );
+}
+
+.text-transform-gradient {
+    background: linear-gradient(
+            90.13deg,
+            #d1aad7 0.11%,
+            #c88bc4 25.06%,
+            #7b8fdd 50%,
+            #86bff2 74.8%,
+            #bbdef2 99.76%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-transform-x-gradient {
+  background: linear-gradient(
+          90.13deg,
+          #c96fa0 4.27%,
+          #6b80d2 35.45%,
+          #59bbcc 66.11%,
+          #a2af72 96.25%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+
+.text-transform-full-gradient {
+  background: linear-gradient(
+          90deg,
+          #d1aad7 100%,
+          #c88bc4 100%,
+          #7b8fdd 100%,
+          #86bff2 100%,
+          #bbdef2 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .section__padding {
   padding: 4rem 6rem;

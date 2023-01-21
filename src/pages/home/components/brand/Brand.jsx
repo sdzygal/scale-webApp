@@ -3,6 +3,11 @@ import Arrow from '../icons/Icons';
 import './brand.css';
 import { Cohere, OpenAI, Carper, Stability, Adept, Microsoft, Airforce, Blend, Brex, Etsy, Flexport, GeneralMotors, Instacart, Sap, Square, Toyota, Usarmy } from './imports';
 
+ export const Line = () => {
+     return (
+     <div className="gradient__bg dividing-line"></div>
+     );
+ }
 
 
 const Brand = () => {
@@ -26,7 +31,7 @@ const Brand = () => {
                <img src={Usarmy} alt="us_army" />
                </div>
            </div>
-           <div className="gradient__bg dividing-line"></div>
+           <Line />
            <div className="scale__brand-container_investors">
                <img src={OpenAI} alt="openAi" />
                <img src={Adept} alt="adept" />

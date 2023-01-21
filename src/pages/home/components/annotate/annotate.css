@@ -1,0 +1,85 @@
+.scale__annotate {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.scale__annotate-container {
+    width: 506px;
+   height: 589px;
+}
+
+.scale__annotate img {
+    width: 64px;
+    height: 64px;
+}
+
+.scale__annotate-subtext {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 21px;
+    color: rgb(212, 212, 212, 212);
+    margin-block-end: 20px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.scale__annotate h1 {
+    font-family: var(--font-family_h1);
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    max-width: 758px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.scale__annotate-desc {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(212, 212, 212, 212);
+    margin-top: 1rem;
+}
+
+.scale__annotate-btn {
+    background-color: transparent;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+
+.scale__annotate-containerBox {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-inline-start: 50px;
+    height: 708px;
+    max-width: 709px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.scale__annotate-containerBox img {
+    height: 549px;
+    width: 549px;
+    margin-inline-end: 50px;
+    cursor: grab;
+}

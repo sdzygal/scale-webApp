@@ -15,7 +15,7 @@
 }
 
 .scale__dev h1 {
-    font-family: var(--font-family);
+    font-family: var(--font-family_h1);
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 2px;
