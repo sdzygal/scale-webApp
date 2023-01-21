@@ -8,9 +8,10 @@ import Arrow from "../icons/Icons";
 
 
 
-const Annotate = () => {
+const AnnotateAdv = () => {
     return(
-        <div className="scale__annotate section__padding"> <div className="scale__annotate-container">
+        <div className="scale__annotate scale__annotateAdv section__padding">
+            <div className="scale__annotate-container scale__annotateAdv">
             <img src={imgUrl1} alt="icon" />
             <p className="scale__annotate-subtext">ANNOTATE CONTENT & LANGUAGE</p>
             <h1>Gather Human Insight</h1>
@@ -18,11 +19,11 @@ const Annotate = () => {
             <Line />
             <button className="scale__annotate-btn" type="button">Learn More<Arrow /></button>
         </div>
-            <div className="transform-x-avatar-color-overlay scale__annotate-containerBox">
-                <Slider slides={SliderData} />
+            <div className="transform-x-avatar-color-overlay scale__annotate-containerBox scale__annotateAdv-slider">
+                <Slider slides={SliderData} clasName="img" />
             </div>
-           </div>
+        </div>
     );
 }
 
-export default Annotate;
+export default AnnotateAdv;

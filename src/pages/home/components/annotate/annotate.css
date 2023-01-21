@@ -78,8 +78,20 @@
 }
 
 .scale__annotate-containerBox img {
-    height: 549px;
-    width: 549px;
-    margin-inline-end: 50px;
+    height: 545px;
+    width: 540px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-inline-end: 55px;
     cursor: grab;
+}
+
+.scale__annotateAdv {
+    flex-direction: row-reverse;
+}
+
+.scale__annotateAdv-slider {
+    margin: 0 3rem;
 }

@@ -1,6 +1,6 @@
 import Img1 from '../../../../assets/named-entity-recognition.svg';
-import Img2 from '../../../../assets/enterprise-ai.png';
-import Img3 from '../../../../assets/rapid-banner.png';
+import Img2 from '../../../../assets/cataloging.webp';
+import Img3 from '../../../../assets/speech-and-audio.svg';
 
 export const SliderData = [
     {image: Img1},
