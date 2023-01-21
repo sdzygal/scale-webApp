@@ -37,7 +37,6 @@ const Brand = () => {
            <div>
                <h4>Trusted by the world’s most ambitious AI teams. <button className="scale__brand-btn" type="button">Meet our customers<Arrow /></button></h4>
            </div>
-
        </div>
     )
 };

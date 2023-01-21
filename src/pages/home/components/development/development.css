@@ -1,0 +1,33 @@
+.scale__dev {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.scale__dev-subtext {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 21px;
+    margin-block-end: 20px;
+    text-transform: uppercase;
+}
+
+.scale__dev h1 {
+    font-family: var(--font-family);
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    max-width: 758px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.scale__dev-desc {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(212, 212, 212, 212);
+    margin-top: 1rem;
+}

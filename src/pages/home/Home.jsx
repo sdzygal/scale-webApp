@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, Brand } from './components/index';
+import { Header, Brand, Development } from './components/index';
+
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
             <Header />
             <Brand />
+            <Development />
         </div>
     );
 }
