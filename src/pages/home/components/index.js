@@ -7,5 +7,6 @@ import { default as Feedback } from '../components/feedback/Feedback';
 import { default as Manage } from '../components/manage/Manage';
 import { default as Automate } from '../components/automate/Automate';
 import { default as Cta } from '../components/cta/Cta';
+import { default as Evaluate } from '../components/evaluate/Evaluate';
 
-export {Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage, Automate, Cta };
+export {Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage, Automate, Cta, Evaluate };
