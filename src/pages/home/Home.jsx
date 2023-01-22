@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Brand, Development, Annotate, AnnotateAdv, Feedback } from './components/index';
+import { Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage } from './components/index';
 
 
 
@@ -12,7 +12,7 @@ const Home = () => {
             <Annotate />
             <AnnotateAdv />
             <Feedback />
-
+            <Manage />
             <Brand />
         </div>
     );

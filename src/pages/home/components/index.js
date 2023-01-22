@@ -4,5 +4,6 @@ import { default as Development } from './development/Development';
 import { default as Annotate } from '../components/annotate/Annotate';
 import { default as AnnotateAdv } from '../components/annotate/AnnotateAdv';
 import { default as Feedback } from '../components/feedback/Feedback';
+import { default as Manage } from '../components/manage/Manage';
 
-export {Header, Brand, Development, Annotate, AnnotateAdv, Feedback };
+export {Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage };
