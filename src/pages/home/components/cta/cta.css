@@ -1,0 +1,105 @@
+.scale__cta {
+    width: 100%;
+}
+
+.scale__cta-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 1216px;
+    height: 500px;
+    background-color: rgba(82, 82, 82, 0.3);
+    box-shadow: rgb(38,38,38) 0px 4px 0px 0px inset;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 40px 80px;
+}
+
+.scale__cta-container_header-img {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+
+.scale__cta-container_headerContent {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7rem;
+}
+
+.scale__cta-container_headerContent h1 {
+    width: 450px;
+    max-height: 100%;
+    font-family: var(--font-family_h1);
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 100;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.scale__cta-container_headerContent p {
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 48px;
+    margin-top: 30px;
+}
+
+.scale__cta-contentInput {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+}
+
+.scale__cta-contentInput input {
+    flex: 2;
+    text-align: start;
+    width: 100%;
+    min-height: 40px;
+    background-color: rgb(38, 38, 38);
+    border: rgb(212, 212, 212) solid 0px;
+    padding: 8px 24px;
+    outline: none;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    cursor: text;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.scale__cta-contentButton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    min-height: 40px;
+    background: rgb(200,139,196);
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 16px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 1rem;
+}
+

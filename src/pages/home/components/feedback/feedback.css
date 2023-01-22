@@ -19,7 +19,6 @@
 }
 
 .scale__feedback-slider {
-    /*overflow: hidden;*/
     display: block;
     box-sizing: border-box;
     margin-block-end: 2rem;
@@ -64,7 +63,6 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
-    background-clip: text;
     margin-top: 10px;
 }
 
