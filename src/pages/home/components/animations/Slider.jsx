@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
 import './slider.css';
+
+
 const Slider = ({ slides }) => {
     const [current, setCurrent] = useState(0);
     const length = slides.length;

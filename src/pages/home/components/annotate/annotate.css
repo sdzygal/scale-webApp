@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
 }
 
@@ -67,7 +67,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-inline-start: 50px;
+    margin-inline-start: 30px;
     height: 708px;
     max-width: 709px;
     border-top-right-radius: 30px;
@@ -84,7 +84,7 @@
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-inline-end: 55px;
+    margin-inline-end: 60px;
     cursor: grab;
 }
 

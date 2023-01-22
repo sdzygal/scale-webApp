@@ -1,20 +1,22 @@
 import React from "react";
+import FeedbackSlider from "./feedbackSlider";
 import "./feedback.css";
 
-import Arrow from "../icons/Icons";
 
 
-
-const Annotate = () => {
+const Feedback = () => {
     return(
+        <>
         <div className="scale__feedback section__padding">
             <div className="scale__feedback-container">
                 <div className="scale__feedback-containerBox">
-
+                    <FeedbackSlider />
                 </div>
         </div>
         </div>
+        </>
+
     );
 }
 
-export default Annotate;
+export default Feedback;
