@@ -19,7 +19,7 @@ const Cta = () => {
                         <div className="scale__cta-contentInput">
                         <input type="email" placeholder="Enter Your Work Email" />
                             <div className="scale__cta-contentButton">
-                            <button className="" type="button">Get in Touch <Arrow /> </button>
+                            <button type="button">Get in Touch <Arrow /> </button>
                         </div>
                         </div>
 
