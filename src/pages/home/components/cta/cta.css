@@ -103,3 +103,17 @@
     margin-left: 1rem;
 }
 
+.scale__cta2 {
+    margin-bottom: 10rem;
+}
+
+.scale__cta-container2 {
+    height: 470px;
+    box-shadow: unset;
+    padding: 0 110px;
+}
+
+.btn_cta2 button {
+    width: 180px;
+    margin-left: 0;
+}
