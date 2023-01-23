@@ -1,6 +1,6 @@
 import React from 'react';
-import { Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage, Automate, Cta, Evaluate, Collect, Generate, Cta2, Cta3} from './components/index';
-
+import { Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage, Automate, Cta, Evaluate, Collect, Generate, Cta2, Cta3, Footer} from './components/index';
+import { Copyright } from "../../components/footer/Footer";
 
 
 const Home = () => {
@@ -20,7 +20,9 @@ const Home = () => {
             <Generate />
             <Cta2 />
             <Brand />
-                <Cta3 />
+            <Cta3 />
+            <Footer />
+                <Copyright />
         </div>
     );
 }

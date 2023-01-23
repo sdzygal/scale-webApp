@@ -12,5 +12,6 @@ import { default as Collect } from '../components/collect/Collect';
 import { default as Generate } from '../components/generate/Generate';
 import { default as Cta2 } from './cta/Cta2';
 import { default as Cta3 } from './cta/Cta3';
+import { default as Footer } from '../../../components/footer/Footer';
 
-export {Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage, Automate, Cta, Evaluate, Collect, Generate, Cta2, Cta3 };
+export {Header, Brand, Development, Annotate, AnnotateAdv, Feedback, Manage, Automate, Cta, Evaluate, Collect, Generate, Cta2, Cta3, Footer };
