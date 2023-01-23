@@ -11,7 +11,8 @@ import Arrow from "../icons/Icons";
 const Annotate = () => {
 
     return(
-        <div className="scale__annotate section__padding"> <div className="scale__annotate-container">
+        <div className="scale__annotate section__padding">
+            <div className="scale__annotate-container">
             <img src={imgUrl1} alt="icon" />
             <p className="scale__annotate-subtext">ANNOTATE CONTENT & LANGUAGE</p>
             <h1>Gather Human Insight</h1>

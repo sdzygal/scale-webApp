@@ -96,3 +96,60 @@
 .scale__annotateAdv-slider {
     margin: 0 3rem;
 }
+
+@media screen and (max-width: 1200px) {
+   .scale__annotate {
+        margin: 5rem 0;
+    }
+
+    .scale__annotate-container {
+        width: 406px;
+        height: 489px;
+        margin-top: -1rem;
+    }
+
+    .scale__annotate-containerBox {
+        height: 540px;
+        max-width: 520px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scale__annotate-containerBox img {
+        height: 415px;
+        width: 410px;
+    }
+
+    .scale__annotate-btn {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+    .scale__annotate{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .scale__annotate-container {
+        width: 80%;
+        height: 400px;
+    }
+
+    .scale__annotate-containerBox {
+        height: 540px;
+        max-width: 520px;
+        margin-top: 8rem;
+    }
+
+    .scale__annotate-containerBox img {
+       min-height: 150px;
+        width: 350px;
+    }
+}
+
