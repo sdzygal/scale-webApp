@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
 }
@@ -69,8 +70,8 @@
     justify-content: center;
     position: relative;
     margin-inline-start: 30px;
-    height: 708px;
-    max-width: 709px;
+    min-height: 708px;
+    max-width: 708px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -103,29 +104,19 @@
     }
 
     .scale__annotate-container {
-        width: 406px;
-        height: 489px;
         margin-top: -1rem;
     }
 
     .scale__annotate-containerBox {
-        height: 540px;
-        max-width: 520px;
         align-items: center;
         justify-content: center;
     }
 
     .scale__annotate-containerBox img {
-        height: 415px;
+        min-height: 415px;
         width: 410px;
     }
 
-    .scale__annotate-btn {
-        font-size: 14px;
-        line-height: 25px;
-        padding: 0.5rem;
-        margin-top: 1rem;
-    }
 
 }
 
@@ -142,14 +133,14 @@
     }
 
     .scale__annotate-containerBox {
-        height: 540px;
+       max-height: 540px;
         max-width: 520px;
         margin-top: 8rem;
     }
 
     .scale__annotate-containerBox img {
-       min-height: 150px;
-        width: 350px;
+       min-height: 250px;
+        width: 310px;
     }
 }
 

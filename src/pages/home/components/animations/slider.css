@@ -41,37 +41,25 @@
 
 @media screen and (max-width: 1200px) {
     .right-arrow {
-        top: 300px;
-        left: 300px;
+        top: 380px;
+        left: 290px;
     }
 
     .left-arrow {
-        top: 300px;
-        left: 170px;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    .right-arrow {
-        top: 250px;
-        left: 270px;
-    }
-
-    .left-arrow {
-        top: 250px;
-        left: 120px;
+        top: 380px;
+        left: 180px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .right-arrow {
-        top: 250px;
-        left: 250px;
+        top: 380px;
+        left: 220px;
     }
 
     .left-arrow {
-        top: 250px;
-        left: 150px;
+        top: 380px;
+        left: 140px;
     }
 }
