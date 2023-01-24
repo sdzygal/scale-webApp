@@ -5,7 +5,7 @@ import { default as imgUrl4 } from '../../../../assets/feedback/standard-cogniti
 import { default as imgUrl5 } from '../../../../assets/feedback/states-title.svg';
 
 
-export const SliderData = [
+const SliderData = [
     {
         id: 1,
         image: imgUrl1,
@@ -42,3 +42,5 @@ export const SliderData = [
         role: 'Software Operations Program Manager, Nuro'
     }
 ];
+
+export default SliderData;

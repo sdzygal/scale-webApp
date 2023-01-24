@@ -2,8 +2,40 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SliderData } from "./import";
+import  SliderData from "./import";
 import './feedback.css';
+
+
+function Card (props) {
+    return (
+        <div className="scale__feedback-slide">
+
+            <div className="scale__feedback-slide_block">
+                <img src={props.image} alt="avatar" className="feedbackImg" />
+                <blockquote>
+                    {props.quote}
+                </blockquote>
+                <h4 className="text-transform-gradient">
+                    {props.author}
+                </h4>
+                <p>
+                    {props.role}
+                </p>
+            </div>
+        </div>
+
+    )}
+
+function createCard(props) {
+    return <Card
+        key={props.id}
+                 image={props.image}
+                 quote={props.quote}
+                 author={props.author}
+                 role={props.role}
+    />
+}
+
 
 function NextArrow(props) {
     const { className, style, onClick } = props;
@@ -75,24 +107,7 @@ function FeedbackSlider() {
     return (
         <div className="scale__feedback-slider">
             <Slider {...settings}>
-                {SliderData.map((item) =>(
-                <div className="scale__feedback-slide">
-                    <div className="scale__feedback-slide_left">
-                        <img src={item.image} alt="avatar" />
-                    </div>
-                    <div className="scale__feedback-slide_right">
-                        <blockquote>
-                            {item.quote}
-                        </blockquote>
-                        <h4 className="text-transform-gradient">
-                            {item.author}
-                        </h4>
-                        <p>
-                            {item.role}
-                        </p>
-                    </div>
-                </div>
-            ))}
+                {SliderData.map(createCard)}
             </Slider>
         </div>
     );
